@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Training Status Display -->
+    <TextView
+        android:id="@+id/trainingStatusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ready to train"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Current Epoch Display -->
+    <TextView
+        android:id="@+id/epochText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Epoch: -"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Loss Display -->
+    <TextView
+        android:id="@+id/lossText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loss: -"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Validation Accuracy Display -->
+    <TextView
+        android:id="@+id/accuracyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Validation Accuracy: -"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Training Button -->
+    <Button
+        android:id="@+id/startTrainingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Training"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
+
